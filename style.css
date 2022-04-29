@@ -228,6 +228,16 @@
   border-color: #fe446c;
   color: #fe446c;
 }
+.menu-list-item i,
+.menu-list-item span {
+  transition: 0.3s;
+}
+.menu-list-item:hover i {
+  color: #fe446c;
+}
+.menu-list-item:hover span {
+  color: #fe446c;
+}
 .fw-bold {
   font-weight: bold;
 }
